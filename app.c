@@ -1,7 +1,8 @@
 #include <stdio.h>
+#define COLUMN 5
 
-void scalarMultiply(int, int, int [][], int);
-void displayMatrix(int, int, int [][]);
+void scalarMultiply(int, int, int [][COLUMN], int);
+void displayMatrix(int, int, int [][COLUMN]);
 
 int main(void) {
     int  sampleMatrix[3][5] = {
